@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- type -->
+<html lang="en">
+<head><!--defines the dependencies-->
+    <meta charset="UTF-8"> <!--data about data -->
+    <!--  It ensures that characters (including special symbols, emojis, and non-English text) are displayed correctly in the browser. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- width=device-width: Sets the width of the viewport to the device's screen width.
+    initial-scale=1.0: Sets the initial zoom level when the page is first loaded -->
+    <title>MY page 1</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js" async ></script> -->
+    <!-- defer means javascript will run at last -->
+    <script src="script.js" defer ></script>
+    <script src="data.js" defer ></script>
+
+    <!-- async means javascript will run as soon as it is loaded -->
+    <!-- we use it when manipulation is  not there -->
+    <!-- async scripts are executed as soon as they are downloaded, without waiting for the entire page to load. -->
+
+    <!-- defer will wait till parsing whereas async is executes as soon a sit is downloaded and it is non blocking -->
+
+
+    <!-- semantic elements are those that clearly describe their meaning in a human- and machine-readable way. -->
+    <!-- For example, <header>, <footer>, <article>, and <section> -->
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div>Welcome to Ecommerce site</div>
+    </div>
+     
+    <div class="list">This is a list of products</div>
+    <div id="tag1"></div>
+    <div id="data">
+    <!-- <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wireless Mouse</td>
+                <td>$15.99</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>Bluetooth Headphones</td>
+                <td>$49.99</td>
+                <td>Out of Stock</td>
+            </tr>
+            <tr>
+                <td>USB-C Charger</td>
+                <td>$12.50</td>
+                <td>In Stock</td>
+            </tr>
+        </tbody>
+    </table> -->
+    </div>
+
+    <div id="tag2"></div>
+
+</body>
+</html>
