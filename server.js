@@ -3,7 +3,7 @@ var app=express();
 var port=8080;
 // default port for http is 80, for https is 443
 // if you want to run on port 80, you need to run the server with sudo
-app.use(express.static('public'));
+app.use(express.static('frontend'));
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
